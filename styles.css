@@ -1,0 +1,65 @@
+*,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: steelblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*desktop*/
+
+.boxdesktop {
+    width: 400px;
+    height: 400px;
+    background-color: peru;
+}
+
+@media (max-width:1920px) {
+    .boxdesktop {
+        background-color: blue;
+    }
+}
+
+@media (max-width:1200px) {
+    .boxdesktop {
+        background-color: black;
+    }
+}
+
+@media (max-width:720px) {
+    .boxdesktop {
+        background-color: pink;
+    }
+}
+
+
+/*mobile*/
+
+.boxmobile {
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+}
+
+@media (min-width:360px) {
+    .boxmobile {
+        background-color: green;
+    }
+}
+
+@media (min-width:480px) {
+    .boxmobile {
+        background-color: yellow;
+    }
+}
+
+@media (min-width:1400px) {
+    .boxmobile {
+        background-color: green;
+    }
+}
